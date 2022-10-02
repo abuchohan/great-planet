@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Section from '../Section/Section';
+import Footer from '../Footer/Footer';
 
 import video from '../Fullpage/mp4-h264-aac-1920_1080.mp4';
 import videoAlt from '../Fullpage/mp4-h264-aac-1920_1080a.mp4';
@@ -13,6 +14,7 @@ const Fullpage = () => (
         scrollOverflow={false}
         anchors={[ 'one', 'two', 'three', 'four' ]}
         scrollBar={true}
+        responsiveHeight
         render={({ state, fullpageApi }) => {
             return (
                 <ReactFullpage.Wrapper>
@@ -94,6 +96,8 @@ const Fullpage = () => (
                             </div>
                         </div>
                     </Section>
+
+                    <Footer />
                 </ReactFullpage.Wrapper>
             );
         }}
