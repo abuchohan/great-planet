@@ -27,7 +27,10 @@ const Fullpage = () => (
                         </div>
                     </Section>
                     <Section dark>
-                        <p />
+                        <p style={{ color: 'white' }}>
+                            {' '}
+                            Section content incoming{' '}
+                        </p>
                     </Section>
                     <Section>
                         <div className='section-content'>
@@ -42,6 +45,53 @@ const Fullpage = () => (
                             <video controls className='video-embed'>
                                 <source src={videoAlt} type='video/mp4' />
                             </video>
+
+                            <div class='m-scroll'>
+                                <div class='m-scroll--title'>
+                                    <div>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                        <h1>
+                                            <a href='/'>
+                                                We're inventing tomorrow
+                                            </a>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </Section>
                 </ReactFullpage.Wrapper>
