@@ -5,14 +5,16 @@ import Fullpage from './components/Fullpage/Fullpage.jsx';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/Header';
 import LoadingBar from './components/LoadingBar/LoadingBar';
+import Footer from './components/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-            <Header />
-    <LoadingBar />
-    <Fullpage />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Header />
+        <LoadingBar />
+        <Fullpage />
+        <Footer />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

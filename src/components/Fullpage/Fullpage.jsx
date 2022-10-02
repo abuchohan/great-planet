@@ -12,7 +12,7 @@ const Fullpage = () => (
         scrollingSpeed={1000}
         scrollOverflow={false}
         anchors={[ 'one', 'two', 'three', 'four' ]}
-        scrollBar={false}
+        scrollBar={true}
         render={({ state, fullpageApi }) => {
             return (
                 <ReactFullpage.Wrapper>

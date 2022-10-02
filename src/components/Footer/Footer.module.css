@@ -1,0 +1,16 @@
+.footer {
+  padding: 30px;
+  background-color: black;
+  display: flex;
+  height: 95px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer div {
+  color: #fff;
+  font-weight: 200;
+  font-size: 20px;
+}
