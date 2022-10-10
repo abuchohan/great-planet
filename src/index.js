@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 import './index.css';
-import Fullpage from './components/Fullpage/Fullpage.jsx';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/Header/Header';
-import LoadingBar from './components/LoadingBar/LoadingBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <React.StrictMode>
-        <Header />
-        <LoadingBar />
-        <Fullpage />
+        <App />
     </React.StrictMode>
 );
 
