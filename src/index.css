@@ -213,7 +213,7 @@ code {
 
 .m-scroll--title div {
   display: flex;
-  animation: scrollText 4s infinite linear;
+  animation: scrollText 16s infinite linear;
 }
 
 .m-scroll--title h1 {
@@ -307,7 +307,6 @@ div:hover {
   -webkit-text-fill-color: transparent;
   padding-top: 0.2em;
   font-weight: 500;
-  font-size: 2.5rem;
 }
 
 #fp-nav ul li a span {

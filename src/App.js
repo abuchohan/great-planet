@@ -7,7 +7,7 @@ function App() {
   return (
 <>
 <Header />
-        <LoadingBar />
+        {/* <LoadingBar /> */}
         <Fullpage />
         </>
   );

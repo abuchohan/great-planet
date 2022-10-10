@@ -26,7 +26,7 @@ const Fullpage = () => (
           <Section backgroundVideo={video} />
           <Section>
             <div className="section-content">
-              <p className="fade-in content-p">
+              <p className="fade-in content-p" style={{fontSize: '2.5rem'}}>
                 The future is in our hands. We’re creating solutions to help the
                 Earth thrive — <span className="text-fill">for all of us.</span>
               </p>
